@@ -14,6 +14,6 @@ int a;
 	{
 	putchar(a + '0');
 	}
-printf("\n");
+putchar('\n');
 return (0);
 }
