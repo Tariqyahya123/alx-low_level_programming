@@ -4,6 +4,17 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/*
+ *
+ *
+ *
+ *
+ *
+ * function main is good
+ *
+ *
+ *
+ */
 int main(void)
 {
 	int n;
