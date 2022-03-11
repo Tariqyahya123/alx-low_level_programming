@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
+ * main - Short description, single line
 (* a blank line
  * Description: Longer description of the function)?
 (* section header: Section description)*
