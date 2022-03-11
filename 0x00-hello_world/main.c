@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	printf("lol");
     return (0);
 }
