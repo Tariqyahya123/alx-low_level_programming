@@ -16,5 +16,6 @@ int main(void)
 	{
 	printf("%x", a);
 	}
+putchar('\n');
 return (0);
 }
