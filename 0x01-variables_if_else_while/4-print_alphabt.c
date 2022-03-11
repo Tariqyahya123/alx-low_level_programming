@@ -13,6 +13,7 @@ int main(void)
 {
 char c;
 	for (c = 'a'; c <= 'z'; ++c)
+	{
 	if (c == 'e')
 	{
 		c = 'f';
@@ -22,6 +23,7 @@ char c;
 		c = 'r';
 	}
 	printf("%c", c);
+	}
 printf("\n");
 return (0);
 }
