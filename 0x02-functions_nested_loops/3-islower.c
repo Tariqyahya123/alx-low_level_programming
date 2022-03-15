@@ -7,16 +7,16 @@
  */
 
 
-
+int main(void){
 int _islower(int c)
 {
  
 
-if ( ( c) < 97 )
+if (  c < 97 )
 {
 return (0);
 }
 return (1);
 
 }
-
+}
