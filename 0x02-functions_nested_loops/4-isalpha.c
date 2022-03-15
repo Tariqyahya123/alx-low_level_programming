@@ -5,7 +5,6 @@
  *isalpha - check if alpha
  * return int
  * c - best member integer
- * Return: Always 0 (Success)
  */
 
 
