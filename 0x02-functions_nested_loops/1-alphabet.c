@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * print_ap
  * Return: Always 0 (Success)
  */
 

@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * print_alphabet_x10 - best ever
+ * print_alphabet_x10 - prints the alphabet ten times
  * Return: Always 0 (Success)
  */
 
