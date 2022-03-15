@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <limits.h>
 /**
  * print_last_digit - check for lower case letter
  * Return: 0 or 1 or -1
