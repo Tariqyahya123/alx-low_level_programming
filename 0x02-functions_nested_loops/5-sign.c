@@ -3,8 +3,7 @@
 /**
  * print_sign - check for lower case letter
  * Return: 0 or 1 or -1
- * n : character to check
- * Return:0 or 1
+ *@n : character to check
  */
 
 int print_sign(int n)
@@ -18,10 +17,11 @@ _putchar('+');
 else
 if (n == 0)
 {
-test = 0;	
+test = 0;
 _putchar('0');
 }
-else{
+else
+{
 test = -1;
 _putchar('-');
 }
