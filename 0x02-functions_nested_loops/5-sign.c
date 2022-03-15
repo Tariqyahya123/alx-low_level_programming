@@ -1,30 +1,24 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * print_sign - check numers
- * @n : number to check
+ * print_sign - check for lower case letter
+ * n : character to check
  * Return:0 or 1
  */
 
 int print_sign(int n)
 {
-int test;
-
 if (n > 0)
 {
-	test = 1;
-	_putchar('+');
-}
-else if (n == 0)
-{
-	test = 0;
-	_putchar('0');
+printf('+');
+return (1);
 }
 else
+if (n == 0)
 {
-	test = -1;
-	_putchar('-');
+printf('0')
+return (0);
 }
-
-return (test);
+printf('-');
+return (-1);
 }
