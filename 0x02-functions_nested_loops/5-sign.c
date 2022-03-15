@@ -10,7 +10,7 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-printf("+1\n");
+printf("+\n");
 return(1);
 }
 else
