@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <main.h>
 /**
  * print_sign - check for lower case letter
  * n : character to check
