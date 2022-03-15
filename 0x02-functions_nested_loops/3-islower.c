@@ -12,7 +12,7 @@ int _islower(int c)
 {
  
 
-if ( ("%d" , c) < 97 )
+if ( ( c) < 97 )
 {
 return (0);
 }
