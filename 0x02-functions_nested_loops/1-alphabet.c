@@ -7,16 +7,16 @@
 
 
 
-	
+
 
 
 void print_alphabet(void)
 {
- char letter;
+char letter;
 
- for (letter = 'a'; letter <= 'z'; letter++)
- {
+for (letter = 'a'; letter <= 'z'; letter++)
+{
 	printf("%c", letter);
- }
- 	printf("\n");
+}
+	printf("\n");
 }
