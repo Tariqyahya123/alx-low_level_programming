@@ -3,14 +3,14 @@
 /**
  * main - Entry point
  *_isalpha - check if alpha
+ * return int
+ * c - best member integer
  * Return: Always 0 (Success)
  */
 
 
 int _isalpha(int c)
 {
-
-
 if ( c <= 90  && c >= 65)
 {
 return (1);
