@@ -8,15 +8,21 @@
 
 int print_sign(int n)
 {
+int test;
 if (n > 0)
 {
+test = 1;
 putchar('+');
-return(1);
 }
 else
 if (n == 0)
 {
-printf("0");return (0);
+test = 0;	
+putchar('0');
 }
-printf("-");return (-1);
+else{
+test = -1;
+putchar('-');
+}
+return (test);
 }
