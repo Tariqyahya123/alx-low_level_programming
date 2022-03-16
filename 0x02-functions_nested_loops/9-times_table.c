@@ -6,10 +6,6 @@
  *@n : character to check
  */
 
-void main(void)
-{
-times_table();
-}
 
 void times_table(void)
 {
@@ -25,6 +21,7 @@ temp = j * i;
 printf("%d", temp);
 putchar(',');
 putchar(' ');
+
 }
 printf("\n");
 	
