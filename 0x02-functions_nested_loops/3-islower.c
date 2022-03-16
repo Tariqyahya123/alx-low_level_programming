@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * _islower - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -9,9 +9,7 @@
 
 int _islower(int c)
 {
- 
-
-if (  c < 97 )
+if (c < 97)
 {
 return (0);
 }
