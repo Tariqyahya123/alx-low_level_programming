@@ -23,6 +23,7 @@ if (temp >= 10){
 printf("%d", temp);
 putchar(',');
 putchar(' ');	
+break;
 }
 printf("%d", temp);
 putchar(',');
