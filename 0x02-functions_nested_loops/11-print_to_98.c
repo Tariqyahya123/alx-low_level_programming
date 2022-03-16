@@ -14,7 +14,7 @@ for (a = n; a < 99; a++)
 {
 if (a == 98)
 {
-printf("%d", a);
+printf("%d\n", a);
 }
 else {
 printf("%d, ", a);
@@ -23,11 +23,11 @@ printf("%d, ", a);
 }
 else 
 {
-for (a = n; a > 98; a--)
+for (a = n; a > 97; a--)
 {
 if (a == 98)
 {
-printf("%d", a);
+printf("%d\n", a);
 }
 else {
 printf("%d, ", a);
