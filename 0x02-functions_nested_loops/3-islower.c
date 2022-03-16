@@ -7,7 +7,6 @@
  */
 
 
-int main(void){
 int _islower(int c)
 {
  
@@ -18,5 +17,4 @@ return (0);
 }
 return (1);
 
-}
 }
