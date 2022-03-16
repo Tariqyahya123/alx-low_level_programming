@@ -19,7 +19,7 @@ for (j = 0; j < 10; j++)
 {
 	
 temp = j * i;
-if (j = 9)
+if (j == 9)
 {
 printf("%d", temp);
 	
