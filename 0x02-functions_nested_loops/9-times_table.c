@@ -19,7 +19,7 @@ for (j = 0; j < 10; j++)
 {
 	
 temp = j * i;
-if (((j+1)*i) >= 9){
+if (((j+1)*i) >= 10){
 printf("%d", temp);
 putchar(',');
 putchar(' ');	
