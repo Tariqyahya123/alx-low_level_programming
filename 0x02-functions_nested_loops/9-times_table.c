@@ -16,22 +16,22 @@ int temp;
 for (i = 0; i < 10; i++)
 {
 for (j = 0; j < 10; j++)
-{
-	
+{	
 temp = j * i;
 if (j == 9)
 {
 printf("%d", temp);
-	
 }
-else if (((j+1)*i) >= 10){
+else if (((j + 1) * i) >= 10)
+{
 printf("%d", temp);
 putchar(',');
-putchar(' ');	
+putchar(' ');
 
 
 }
-else if (temp < 9){
+else if (temp < 9)
+{
 printf("%d", temp);
 putchar(',');
 putchar(' ');
@@ -39,6 +39,6 @@ putchar(' ');
 }
 }
 printf("\n");
-	
+
 }
 }
