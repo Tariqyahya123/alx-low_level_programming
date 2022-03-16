@@ -23,12 +23,14 @@ if (temp >= 10){
 printf("%d", temp);
 putchar(',');
 putchar(' ');	
-break;
+
 }
+else if (temp < 10){
 printf("%d", temp);
 putchar(',');
 putchar(' ');
 putchar(' ');
+}
 }
 printf("\n");
 	
