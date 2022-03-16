@@ -6,9 +6,6 @@
  * Return: 0 or 1 or -1
  *@n : character to check
  */
-int main(void){
-jack_bauer();
-}
 
 
 int jack_bauer(void)
