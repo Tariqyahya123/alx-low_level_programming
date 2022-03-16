@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main"
 /**
  *putchar - puts character
 * main - causes an infinite loop
