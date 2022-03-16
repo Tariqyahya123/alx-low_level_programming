@@ -17,7 +17,7 @@ if (a == 98)
 {
 printf("%d\n", a);
 }
-else 
+else
 {
 printf("%d, ", a);
 }
@@ -31,7 +31,7 @@ if (a == 98)
 {
 printf("%d\n", a);
 }
-else 
+else
 {
 printf("%d, ", a);
 
