@@ -17,7 +17,13 @@ for (i = 0; i < 10; i++)
 {
 for (j = 0; j < 10; j++)
 {
+	
 temp = j * i;
+if (temp >= 10){
+printf("%d", temp);
+putchar(',');
+putchar(' ');	
+}
 printf("%d", temp);
 putchar(',');
 putchar(' ');
