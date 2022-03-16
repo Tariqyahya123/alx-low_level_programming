@@ -4,7 +4,6 @@
 /**
  * jack_bauer - check for lower case letter
  * Return: 0 or 1 or -1
- *@n : character to check
  */
 
 
@@ -29,7 +28,7 @@ for (d = 0; d < 10; d++)
 if (i == 2 && j == 3 && c == 5 && d == 9)
 {
 	printf("23:59\n");
-	return 0;
+	return (0);
 }
 printf("%d%d:%d%d\n", i, j, c, d);
 }
