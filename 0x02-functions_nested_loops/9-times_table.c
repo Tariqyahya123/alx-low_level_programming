@@ -21,7 +21,7 @@ temp = j * i;
 printf("%d", temp);
 putchar(',');
 putchar(' ');
-
+putchar(' ');
 }
 printf("\n");
 	
