@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ *putchar - puts character
 * main - causes an infinite loop
 * Return: 0
 */
