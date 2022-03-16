@@ -19,13 +19,13 @@ for (j = 0; j < 10; j++)
 {
 	
 temp = j * i;
-if (temp >= 10){
+if (temp >= 9){
 printf("%d", temp);
 putchar(',');
 putchar(' ');	
 
 }
-else if (temp < 10){
+else if (temp < 9){
 printf("%d", temp);
 putchar(',');
 putchar(' ');
