@@ -4,6 +4,7 @@
  * _islower - Entry point
  *
  * Return: Always 0 (Success)
+ * @c - yes man
  */
 
 
