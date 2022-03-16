@@ -7,10 +7,7 @@
  *@n : character to check
  */
 
-int main(void){
 
-jack_bauer();
-}
 
 
 void jack_bauer(void)
