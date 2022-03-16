@@ -31,9 +31,9 @@ for (d = 0; d < 10; d++)
 if (i == 2 && j == 3 && c == 5 && d == 9)
 {
 	printf("23:59\n");
-	return;
+	break;
 }
-printf("%d%d:%d%d\n", i,j,c,d);
+printf("%d%d:%d%d\n", i, j, c, d);
 }
 }
 }
