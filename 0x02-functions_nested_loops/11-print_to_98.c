@@ -6,7 +6,8 @@
  */
 
 
-void print_to_98(int n) {
+void print_to_98(int n)
+{
 int a;
 if (n <= 98)
 {
@@ -16,12 +17,13 @@ if (a == 98)
 {
 printf("%d\n", a);
 }
-else {
+else 
+{
 printf("%d, ", a);
 }
 }
 }
-else 
+else
 {
 for (a = n; a > 97; a--)
 {
@@ -29,7 +31,8 @@ if (a == 98)
 {
 printf("%d\n", a);
 }
-else {
+else 
+{
 printf("%d, ", a);
 
 }
