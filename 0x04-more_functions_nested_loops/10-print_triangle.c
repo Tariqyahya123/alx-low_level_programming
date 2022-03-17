@@ -2,7 +2,6 @@
 /**
  * print_triangle - prints numbers
  * @size : number of lines
- * Return: void
  */
 
 
