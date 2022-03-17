@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - Entry point
- *return : 0
+ * print_most_numbers - prints numbers
+ * Return : 0
  */
 
 
