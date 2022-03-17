@@ -1,7 +1,5 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * fizz_buzz - prints numbers
  * main - main function
  * Return: void
  */
