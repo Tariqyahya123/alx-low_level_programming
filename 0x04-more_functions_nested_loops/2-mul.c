@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _isdigit - Entry point
+ * mul - Entry point
  *
- * @c :  character to check the case
- * Return: 0 or 1
+ * @a : digit to multiply
+ * @b : digit to multiply
+ * Return: the answer of the multiplication
  */
 
 
 int mul(int a, int b)
 {
-return (a*b);
+return (a * b);
 }
