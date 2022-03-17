@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main/h"
 
 /**
  * print_triangle - check for a digit
@@ -31,4 +31,5 @@ void print_triangle(int size)
 	}
 	if (i == 1)
 		_putchar('\n');
-}
+
+
