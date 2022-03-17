@@ -1,4 +1,4 @@
-#include "main/h"
+#include "main.h"
 
 /**
  * print_triangle - check for a digit
@@ -30,6 +30,9 @@ void print_triangle(int size)
 		i++;
 	}
 	if (i == 1)
+	{
 		_putchar('\n');
 
+	}
 
+}
