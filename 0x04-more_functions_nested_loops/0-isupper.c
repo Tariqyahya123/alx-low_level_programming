@@ -3,8 +3,8 @@
 /**
  * _isupper - Entry point
  *
- * Return: Always 0 (Success)
- * @c :  yes man
+ * @c :  character to check the case
+ * Return: 0 or 1
  */
 
 
