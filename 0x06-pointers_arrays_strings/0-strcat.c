@@ -1,34 +1,22 @@
-#include "main.h"
-#include <stdio.h>
-
+#include "holberton.h"
 /**
- * strcat - swap variable values
- * @a: pointer 1
- * @b: pointer 2
- * Return: final string
+ * *_strcat - concatenates two strings
+ * @dest: pointer destination
+ * @src: pointer source
+ * Return: void
 */
 
-char *_strcat(char *a, char *b)
+char *_strcat(char *dest, char *src)
 {
-int i;
-int j = 0;
-/* char final[(sizeof(a) + sizeof(b)) - 1]; */
-
-for (i = 0; i < 500; i++)
-{
-if (a[i] == '\0')
-
-break;
-}
-
+int a = -1, i;
+for (i = 0; dest[i] != '\0'; i++)
+;
 
 do {
+	a++;
+	dest[i] = src[a];
+	i++;
+} while (src[a] != '\0');
 
-a[i] = b[j];
-i++;
-j++;
-	} while (b[j] != '\0');
-
-
-return (a);
+return (dest);
 }
