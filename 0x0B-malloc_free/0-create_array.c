@@ -23,6 +23,11 @@ else
 
 char *array = malloc(size * sizeof(char));
 
+if (array == 0)
+{
+    return (NULL);
+}
+
 int i;
 
 for (i = 0; i < (int) size; i++)
