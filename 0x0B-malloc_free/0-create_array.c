@@ -17,4 +17,5 @@ if (size == 0 || m == 0)
 while (size--)
 	m[size] = c;
 
-return (m);}
+return (m);
+}
