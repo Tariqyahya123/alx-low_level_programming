@@ -1,39 +1,21 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
-
 /**
- * create_array - swap variable values
- * @size: pointer 1
- * @c: pointer 2
- * Return: final string
-*/
+ * *create_array - creates an array of chars,
+ * and initializes it with a specific char.
+ * @size: size of the array
+ * @c: char to initialize
+ * Return: pointer to the array initialized or NULL
+ */
 
 char *create_array(unsigned int size, char c)
 {
+char *m = malloc(size);
+if (size == 0 || m == 0)
+	return (0);
 
-if (size == 0)
-{
-return (NULL);
-}
-else
-{
+while (size--)
+	m[size] = c;
 
-
-char *array = malloc(size * sizeof(char));
-
-if (array == 0)
-{
-    return (NULL);
-}
-
-int i;
-
-for (i = 0; i < (int) size; i++)
-{
-array[i] = c;
-}
-return (array);
-}
+return (m);
 }
